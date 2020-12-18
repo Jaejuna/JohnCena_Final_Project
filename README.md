@@ -1,6 +1,9 @@
 # JohnCena_Final_Project
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ### 프로젝트 안내
-  호텔예약페이지 구현
+  고객 관리 시스템 페이지 구현
   
 ### 진행할 내용
   - HTML, CSS, JavaScript를 이용하여 호텔예약시스템 페이지 구현이 목표 <br>
