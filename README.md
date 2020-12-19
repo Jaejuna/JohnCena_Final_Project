@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   
 ### 진행 했던 내용 및 구현 기능
 - 웹 실행시 기본 화면
-<img src="JohnCena_Final_Project/오픈소스 개발 기말 프로젝트/오픈소스 개발 기말 프로젝트 사진.png" width="450px" height="300px">
+<img src="C:\Users\JJJ\git\JohnCena_Final_Project\오픈소스 개발 기말 프로젝트\오픈소스 개발 기말 프로젝트 사진.png" width="450px" height="300px">
 - 고객 추가하기 화면
 <img src="JohnCena_Final_Project/오픈소스 개발 기말 프로젝트/오픈소스 개발 기말 프로젝트 사진2.png" width="450px" height="300px">
 - 추가된 고객 확인하기
