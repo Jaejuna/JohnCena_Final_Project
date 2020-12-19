@@ -138,17 +138,17 @@ class App extends Component{
 
   handleValueChange = (e) => {
     let nextState = {};
-    nextState[e.target.name] = e.target.value;
+    nextState[e.target.NAME] = e.target.value;
     this.setState(nextState);
   }
 
   render(){
   const filteredComponents = (data) => {
-    date = data.filter((c) => {
-    return c.name.indexOf(this.state.searchKeyword) > -1;
+    data = data.filter((c) => {
+    return c.NAME.indexOf(this.state.searchKeyword) > -1;
     });
     return data.map((c) => {
-      return <Customer stateRefresh = {this.stateRefresh} key = {c.id} id = {c.id} image = {c.image} name = {c.name} birthday={c.birthday} gender = {c.gender} job = {c.job} />
+      return <Customer stateRefresh = {this.stateRefresh} key = {c.id} id = {c.id} image = {c.image} NAME = {c.NAME} birthday={c.birthday} gender = {c.gender} job = {c.job} />
     });
     }
   const {classes} = this.props;
@@ -179,7 +179,7 @@ class App extends Component{
                 input: classes.inputInput,
               }}
               inputProps={{ 'aria-label': 'search' }}
-              name = "searchKeyword"
+              NAME = "searchKeyword"
               value= {this.state.searchKeyword}
               onChange= {this.handleValueChange}
             />
