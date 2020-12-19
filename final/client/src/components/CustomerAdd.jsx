@@ -8,6 +8,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import {withStyles} from '@material-ui/core/styles';
 
+
 const styles = theme => ({
     hidden: {
         display: 'none'
@@ -15,7 +16,6 @@ const styles = theme => ({
 });
 
 class CustomerAdd extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
