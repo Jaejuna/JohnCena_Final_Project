@@ -113,10 +113,10 @@ class CustomerAdd extends Component {
                             </Button>
                         </label>
                         
-                        <TextField label="이름" type="text" name="userName" value={this.state.userName} onchange={this.handleChangeValue}/><br/>
-                        <TextField label="생년월일" type="text" name="birthday" value={this.state.birthday} onchange={this.handleChangeValue}/><br/>
-                        <TextField label="성별" type="text" name="gender" value={this.state.gender} onchange={this.handleChangeValue}/> <br/>
-                        <TextField label="직업" type="text" name="job" value={this.state.job} onchange={this.handleChangeValue}/><br/>
+                        <TextField label="이름" type="text" name="userName" value={this.state.userName} onChange={this.handleChangeValue}/><br/>
+                        <TextField label="생년월일" type="text" name="birthday" value={this.state.birthday} onChange={this.handleChangeValue}/><br/>
+                        <TextField label="성별" type="text" name="gender" value={this.state.gender} onChange={this.handleChangeValue}/> <br/>
+                        <TextField label="직업" type="text" name="job" value={this.state.job} onChange={this.handleChangeValue}/><br/>
                     </DialogContent>
                     <DialogActions>
                         <Button variant="contained" color="primary" onClick={this.handleFormSubmit}>추가</Button>
