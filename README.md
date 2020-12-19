@@ -17,12 +17,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   
 ### 진행 했던 내용 및 구현 기능
 - 웹 실행시 기본 화면
-<img src="오픈소스 개발 기말 프로젝트\오픈소스 개발 기말 프로젝트 사진.png" width="450px" height="300px"
+<img src="JohnCena_Final_Project/오픈소스 개발 기말 프로젝트/오픈소스 개발 기말 프로젝트 사진.png" width="450px" height="300px"
 - 고객 추가하기 화면
-<img src="오픈소스 개발 기말 프로젝트\오픈소스 개발 기말 프로젝트 사진2.png" width="450px" height="300px"
+<img src="JohnCena_Final_Project/오픈소스 개발 기말 프로젝트/오픈소스 개발 기말 프로젝트 사진2.png" width="450px" height="300px"
 - 추가된 고객 확인하기
-<img src="오픈소스 개발 기말 프로젝트\오픈소스 개발 기말 프로젝트 사진3.png" width="450px" height="300px"
+<img src="JohnCena_Final_Project/오픈소스 개발 기말 프로젝트/오픈소스 개발 기말 프로젝트 사진3.png" width="450px" height="300px"
 - DB 활용하기 및 확인
-<img src="오픈소스 개발 기말 프로젝트\오픈소스 개발 기말 프로젝트 사진4.png" width="450px" height="300px"
+<img src="JohnCena_Final_Project/오픈소스 개발 기말 프로젝트/오픈소스 개발 기말 프로젝트 사진4.png" width="450px" height="300px"
 - 고객 삭제하기 기능
-<img src="오픈소스 개발 기말 프로젝트\오픈소스 개발 기말 프로젝트 사진5.png" width="450px" height="300px"
+<img src="JohnCena_Final_Project/오픈소스 개발 기말 프로젝트/오픈소스 개발 기말 프로젝트 사진5.png" width="450px" height="300px"
