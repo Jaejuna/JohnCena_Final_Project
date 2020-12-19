@@ -99,17 +99,6 @@ class CustomerAdd extends Component {
     render() {
         const {classes} = this.props;
         return(
-<<<<<<< HEAD
-            <form onSubmit = {this.handleFormSubmit}>
-                <h1>고객추가</h1>
-                프로필 이미지: <input type="file" name="file" file={this.state.file} value={this.state.fileName} onChange={this.handleFileChange}/> <br/>
-                이름: <input type="text" name="userName" value={this.state.userName} onChange={this.handleChangeValue}/><br/>
-                생년월일: <input type="text" name="birthday" value={this.state.birthday} onChange={this.handleChangeValue}/><br/>
-                성별: <input type="text" name="gender" value={this.state.gender} onChange={this.handleChangeValue}/> <br/>
-                직업: <input type="text" name="job" value={this.state.job} onChange={this.handleChangeValue}/><br/>
-                <button type="submit">추가하기</button>
-            </form>
-=======
             <div>
                 <Button variant="contained" color="primary" onClick={this.handleClickOpen}>
                     고객 추가하기
@@ -135,7 +124,6 @@ class CustomerAdd extends Component {
                     </DialogActions>
                 </Dialog>
             </div>
->>>>>>> fbf4fe4beef487c87beec2e5f60c479421908b06
         );
     }
 }
