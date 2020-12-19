@@ -1,0 +1,7 @@
+{
+    "host" : "database-1.cgaelpt5fw3n.ap-northeast-2.rds.amazonaws.com" ,
+    "user" : "admin",
+    "password" : "skidrow5879",
+    "port" : "3306", 
+    "database" : "management"
+}
