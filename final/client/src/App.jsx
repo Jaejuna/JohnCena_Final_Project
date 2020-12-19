@@ -144,7 +144,7 @@ class App extends Component{
 
   render(){
   const filteredComponents = (data) => {
-    date = data.filter((c) => {
+    data = data.filter((c) => {
     return c.name.indexOf(this.state.searchKeyword) > -1;
     });
     return data.map((c) => {
