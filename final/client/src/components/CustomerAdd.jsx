@@ -16,11 +16,20 @@ class CustomerAdd extends React.Compenent {
     }
 
     handleFormSubmit = (e) => {
-        e.precentDefault()
+        e.preventDefault()
         this.addCustomer()
             .then((response) => {
-                console.log(resopnse.data);
+                console.log(response.data);
             })
+        this.setState({
+            file: null,
+            userName: '',
+            birthday: '',
+            gender: '',
+            job: '',
+            fileName: ''
+        })
+        window.location.reload();
     }
 
     handleFileChange = (e) => {
