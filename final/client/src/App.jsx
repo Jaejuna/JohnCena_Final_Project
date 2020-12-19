@@ -30,7 +30,7 @@ class App extends Component{
   constructor(props) {
     super(props);
     this.state = {
-      customer: '',
+      customers: '',
       completed: 0
     }
   }
@@ -89,7 +89,7 @@ class App extends Component{
             key = {c.id}
             id = {c.id}
             image = {c.image}
-            name = {c.name}
+            name = {c.NAME}
             birthday = {c.birthday}
             gender = {c.gender}
             job = {c.job}
@@ -108,6 +108,7 @@ class App extends Component{
         </TableBody>
       </Table>
     </Paper>
+    
     <CustomerAdd stateRefresh={this.stateRefresh}/>
   </div>
   );}}

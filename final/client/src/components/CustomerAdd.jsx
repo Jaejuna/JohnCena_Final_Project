@@ -47,10 +47,10 @@ class CustomerAdd extends React.Component {
     }
 
     addCustomer = () => {
-        const url = './api/customer';
+        const url = './api/customers';
         const formData = new FormData();
         formData.append('image', this.state.file);
-        formData.append('name', this.state.name);
+        formData.append('NAME', this.state.userName);
         formData.append('birthday', this.state.birthday);
         formData.append('gender', this.state.gender);
         formData.append('job', this.state.job);
@@ -67,12 +67,12 @@ class CustomerAdd extends React.Component {
         return(
             <form onSubmit = {this.handleFormSubmit}>
                 <h1>고객추가</h1>
-                프로필 이미지: <input  type="file" name="file" file={this.state.file} value={this.state.fileName} onChange={this.handleFileChange}/> <br/>
-                이름: <input type="text" name="userName" value={this.state.userName} onchange={this.handleChangeValue}/><br/>
-                생년월일: <input type="text" name="birthday" value={this.state.birthday} onchange={this.handleChangeValue}/><br/>
-                성별: <input type="text" name="gender" value={this.state.gender} onchange={this.handleChangeValue}/> <br/>
-                직업: <input type="text" name="job" value={this.state.job} onchange={this.handleChangeValue}/><br/>
-                <button type="submit">submit</button>
+                프로필 이미지: <input type="file" name="file" file={this.state.file} value={this.state.fileName} onChange={this.handleFileChange}/> <br/>
+                이름: <input type="text" name="userName" value={this.state.userName} onChange={this.handleChangeValue}/><br/>
+                생년월일: <input type="text" name="birthday" value={this.state.birthday} onChange={this.handleChangeValue}/><br/>
+                성별: <input type="text" name="gender" value={this.state.gender} onChange={this.handleChangeValue}/> <br/>
+                직업: <input type="text" name="job" value={this.state.job} onChange={this.handleChangeValue}/><br/>
+                <button type="submit">추가하기</button>
             </form>
         );
     }
